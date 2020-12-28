@@ -1,0 +1,6 @@
+open class Hewan { var mata: String = "" var nyawa: String = ""
+
+open fun deskripsi() {
+println("hewan yang memiliki $mata dan juga ber$nyawa")
+}
+}
