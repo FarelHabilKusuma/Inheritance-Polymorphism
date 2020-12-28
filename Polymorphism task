@@ -1,0 +1,26 @@
+fun main(){ val kuda = Kuda() kuda.mata = "dua" kuda.nyawa = "satu" kuda.bulu = "banyak" kuda.ekor = "panjang" kuda.kaki = 4 kuda.deskripsi()
+
+val kucing = Kucing()
+kucing.mata = "dua"
+kucing.nyawa = "satu"
+kucing.kaki = 2
+kucing.ekor = "panjang"
+kucing.pelihara = "oleh manusia"
+kucing.deskripsi()
+
+val lele = Lele()
+lele.mata = "dua"
+lele.nyawa = "satu"
+lele.kumis = "lebat dan"
+lele.ternak = "hewan ternak"
+lele.deskripsi()
+
+val merpati = Merpati()
+merpati.mata = "dua"
+merpati.nyawa = "satu"
+merpati.kaki = 2
+merpati.pelihara = "oleh manusia"
+merpati.sayap = "dua"
+merpati.terbang = "tinggi"
+merpati.deskripsi()
+}
