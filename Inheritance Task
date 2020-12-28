@@ -1,0 +1,35 @@
+fun main(){ val anas = Guru() anas.nama = "anas putra" anas.alamat = "Gunung Kidul" anas.perkenalan() anas.gaji = 800000 anas.berkerja() anas.mapel = "matematika" anas.mengajar()
+
+val amel = Pelajar()
+amel.nama = "amel maharani"
+amel.nis = 12345
+amel.alamat = "Bantul"
+amel.perkenalan()
+amel.jurusan = "IPA"
+amel.belajar()
+
+val farel = Admin()
+farel.nama = "farel habil"
+farel.alamat = "Gunung Kidul"
+farel.perkenalan()
+farel.gaji = 800000
+farel.berkerja()
+farel.sma = "Semanu"
+farel.melayani()
+
+val roman = CleaningService()
+roman.nama = "Nurrohman"
+roman.alamat = "Semanu Utara"
+roman.sma = "SMA N 1 Semanu"
+roman.perkenalan()
+roman.gaji = 600000
+roman.membersihkan()
+
+val indra = PembimbingPramuka()
+indra.nama = "indra putra remaja"
+indra.alamat = "wonosari"
+indra.perkenalan()
+indra.gaji = 500000
+indra.pelatih = "Pramuka tingkat SMA "
+indra.melatih()
+}
